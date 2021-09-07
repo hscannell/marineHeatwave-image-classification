@@ -1,4 +1,11 @@
-# Marine Heatwave Image Classification
+<p align="center">
+  <b>3rd NOAA AI Workshop – Climate Informatics Joint Hackathon</b><br>
+  <a href="https://2021noaaaiworkshop.sched.com/event/lVkA/hackathon-kick-off">Marine Heatwave Prediction</a> |
+  7–10 September 2021
+  <br><br>
+  <img src="images/ai-workshop-2021.jpg">
+</p>
+
 
 ### Background: 
 Surface marine heatwaves (MHWs) are prolonged periods with extremely warm regional sea surface temperature (SST) that have substantial negative impacts on marine ecosystems (Scannell et al., 2020). Along with the persistent long-term warming of Earth’s climate, the frequency of MHW events is increasing, which threatens the global biodiversity and ecosystem services of the ocean (Smale et al., 2019). Therefore, it is crucial to understand the evolution of MHWs and provide early-warning systems of MHWs to inform adaptation and mitigation strategies to offset the adversary impact of MHW. The occurrence and magnitude of MHWs depend critically on the mixed layer near the interface between air and sea. With the information about the mixed layers, can we develop data-driven models to provide early warning for future MHWs?
