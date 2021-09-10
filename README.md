@@ -14,7 +14,7 @@ Surface marine heatwaves (MHWs) are prolonged periods with extremely warm region
 The goal of this hackathon is to develop a data-driven method to predict the onset and offset of marine heatwave events using air-sea flux data at the ocean surface from previous months. The target of the model is to identify whether a grid will experience MHW events at the next time step (tf) given the air-sea flux data from previous time steps (t < tf). Participants can decide the optimal temporal window size to use for predicting MHW in the future.
 
 ### Data:
-[data on Google Drive](https://drive.google.com/drive/folders/1Qwy63wlz83A-tcYBkqX_xUmSm0tjKvKg?usp=sharing)
+[training data on Google Drive](https://drive.google.com/drive/folders/1Qwy63wlz83A-tcYBkqX_xUmSm0tjKvKg?usp=sharing)
 
 Optimum Interpolation Sea Surface Temperature (OISST) v2.1. OISST is an analysis constructed by combining observations from different platforms (satellites, ships, buoys and Argo floats) on a regular global grid. A spatially complete SST map is produced by interpolating to fill in gaps. OISST v2.1 data are available from NOAA National Centers for Environmental Information for the time period starting from September 1, 1981, onward and updated nominally daily. OISST data is used to identify historical MHW events as training and testing datasets.
 Labeled MHW events using Ocetrac and OISST v2.1. The labeled MHW events are produced by applying Ocetrac (Scannell et al., 2021), a Python 3.6+ package designed to label and track the evolution of unique geospatial features in gridded datasets, to OISST v2.1 data. This labeled dataset will be used during the hackathon to develop data-driven models for MHW prediction.
